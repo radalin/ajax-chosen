@@ -7,6 +7,12 @@
     "email": "meltingice8917@gmail.com",
     "url": "http://meltingice.net"
   },
+  "contributors": [
+    { "name": "Roy Simkes", "email": "", "url": "http://roysimkes.net" },
+    { "name": "Kara Carrell", "email": "kara@tablexi.com", "url": "https://kara.codes" }
+  ],
+  "license": "MIT",
+  "main":"lib/ajax-chosen.js",
   "devDependencies": {
     "coffeescript": "^2.3.2",
     "docco": "^0.8.0",
@@ -22,4 +28,5 @@
     "minify": "cake minify",
     "tasks": "cake"
   }
+
 }
