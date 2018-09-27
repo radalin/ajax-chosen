@@ -7,12 +7,26 @@
     "email": "meltingice8917@gmail.com",
     "url": "http://meltingice.net"
   },
+  "contributors": [
+    { "name": "Roy Simkes", "email": "", "url": "http://roysimkes.net" },
+    { "name": "Kara Carrell", "email": "kara@tablexi.com", "url": "https://kara.codes" }
+  ],
+  "license": "MIT",
+  "main":"lib/ajax-chosen.js",
   "devDependencies": {
-    "coffee-script": ">= 1.3.1",
+    "coffeescript": "^2.3.2",
+    "docco": "^0.8.0",
     "jsmin": "*",
     "servedir": "*"
   },
   "scripts": {
-    "start": "servedir"
+    "start": "servedir",
+    "docs": "cake docs",
+    "watch": "cake watch",
+    "build": "cake build",
+    "compile": "cake compile",
+    "minify": "cake minify",
+    "tasks": "cake"
   }
+
 }
